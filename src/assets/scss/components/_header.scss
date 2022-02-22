@@ -1,0 +1,20 @@
+.header {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+
+  &__logo {
+    font-weight: 700;
+  }
+
+  &__nav {
+    display: flex;
+    gap: 1rem;
+    font-size: var(--small-text);
+    font-family: OpenSans, sans-serif;
+
+    &__item {
+      opacity: 0.6;
+    }
+  }
+}

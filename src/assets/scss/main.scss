@@ -1,0 +1,22 @@
+/* BASE */
+@import "base/fonts";
+@import "base/layout";
+
+/* COMPONENTS */
+@import "components/header.scss";
+
+:root {
+  --dark: #000;
+
+  --small-text: 12px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+}
