@@ -1,6 +1,14 @@
+<script setup>
+import WelcomeSection from "@/components/sections/Welcome.vue";
+import WorksSection from "@/components/sections/Works.vue";
+</script>
 
 <template>
   <main>
-    <h1>Main page</h1>
+    <div class="container">
+      <WelcomeSection />
+
+      <WorksSection />
+    </div>
   </main>
 </template>

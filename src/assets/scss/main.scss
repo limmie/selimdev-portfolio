@@ -3,15 +3,25 @@
 @import "base/layout";
 
 /* COMPONENTS */
-@import "components/header.scss";
+@import "components/header";
+@import "components/sections/works";
 
 :root {
-  --dark: #000;
+  --primary-color: #000;
+  --bg: #fff;
 
-  --small-text: 12px;
+  --select-border: var(--primary-color);
+  --select-arrow: var(--select-border);
+
+  --small-text-size: 12px;
+  --normal-text-size: 14px;
+
+  --hover-bg: #eee;
 }
 
-* {
+*,
+*::after,
+*::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;

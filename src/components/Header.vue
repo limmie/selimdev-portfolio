@@ -27,7 +27,7 @@ function changeLanguage(code) {
   <header class="header__wrapper">
     <div class="container">
       <div class="header">
-        <div class="header__logo">Portfolio [selimdev]</div>
+        <div class="header__logo">Portfolio.</div>
 
         <nav class="header__nav">
           <RouterLink
