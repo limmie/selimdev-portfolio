@@ -25,13 +25,8 @@ export default {
 
   emits: ["close"],
 
-  setup(props, { emit }) {
-    const label = ref(props.label);
-    let expanded = ref(props.expanded);
-    const items = ref(props.items);
-    const currentValue = ref(props.currentValue);
-
-    return { label, expanded, items, currentValue };
+  setup(props, { emit, expose }) {
+    expose();
   },
 };
 </script>

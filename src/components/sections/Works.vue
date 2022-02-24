@@ -70,10 +70,6 @@ const selects = ref({
     ],
   },
 });
-
-function some() {
-  console.log("some");
-}
 </script>
 
 <template>
